@@ -1,0 +1,44 @@
+{
+    "name": "InstaMassBot",
+    "description": "A instagram bot that can ms to all followers",
+    "logo": "https://telegra.ph/file/b4e1e36c6b1fcb32dd997.jpg",
+    "keywords": [
+      "telegram",
+      "fridaybot",
+      "plugin",
+      "telegram-fridaybot",
+      "productivity"
+    ],
+    "repository": "https://github.com/HackPhiles-Community/InstaMassBot",
+    "success_url": "t.me/FridayOT",
+    "env": {
+      "ENV": {
+        "description": "Setting this to ANYTHING will enable heroku.(don't touch this)",
+        "value": "ANYTHING"
+      },
+      "USERNAME": {
+        "description": "Enter instagram username",
+        "value": ""
+      },
+      "PASSWARD": {
+        "description": "Enter your instagram passward(developers cannot see ur passward)",
+        "value": ""
+      },
+      "MESSAGE": {
+        "description": "Enter the message you want to send",
+        "value": "Hey its a automated msg"
+      }
+    },
+    
+    "buildpacks": [
+      {
+        "url": "heroku/python"
+      },
+      {
+        "url": "https://github.com/heroku/heroku-buildpack-google-chrome"
+      },
+      {
+        "url": "https://github.com/heroku/heroku-buildpack-chromedriver"
+      }
+    ]
+  }
