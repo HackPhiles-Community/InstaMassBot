@@ -1,5 +1,4 @@
 #Imports sucessfully
-from config import USER
 import instabot.bot as bot
 import os
 
