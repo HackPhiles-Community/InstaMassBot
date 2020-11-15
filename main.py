@@ -1,5 +1,5 @@
 #Imports sucessfully
-import instabot.bot as bot
+from instabot import bot
 import os
 
 #configuring vars
